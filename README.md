@@ -9,7 +9,7 @@ To install extensions on Linux, use this commands in terminal:
 To launch script on Linux, use this commands in terminal:
 
 - ```cd project_dir/```
-- ```python3 main.py``` or ```python main.py```
+- ```python3 run.py``` or ```python run.py```
 ___
 # <b>Example of scraper work</b>
 <img alt="Example image" src="images/image.png" width=400></img>
