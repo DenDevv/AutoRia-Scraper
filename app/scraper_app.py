@@ -14,7 +14,7 @@ dev_config = config.get("development")
 base_config = config.get("base")
 
 
-class ServiceApp:
+class ScraperApp:
     def __init__(self) -> None:
         self.bot = TeleBot(base_config.BOT_TOKEN)
         self.ua = UserAgent()
