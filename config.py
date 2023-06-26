@@ -21,7 +21,9 @@ class DevelopmentConfig:
 
     Base = declarative_base()
     Session = sessionmaker()
-    engine = create_engine("sqlite:///database.db?check_same_thread=False")
+    engine = create_engine("sqlite:///app/database/database.db?check_same_thread=False")
+
+    delay_time = 600
 
     search_url = (
         "https://auto.ria.com/uk/search/?indexName=auto,order_auto,"
