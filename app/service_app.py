@@ -14,14 +14,14 @@ dev_config = config.get("development")
 base_config = config.get("base")
 
 
-class Scraper:
+class ServiceApp:
     def __init__(self) -> None:
         self.bot = TeleBot(base_config.BOT_TOKEN)
         self.ua = UserAgent()
         self.db = DataController()
 
     def start(self):
-        log(log.INFO, "Scraper Started...")
+        log(log.INFO, "App Started...")
 
         while True:
             # Make a response by search url

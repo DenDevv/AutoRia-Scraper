@@ -1,1 +1,1 @@
-from .scraper import Scraper
+from .service_app import ServiceApp
