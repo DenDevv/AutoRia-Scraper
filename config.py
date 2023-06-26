@@ -19,10 +19,6 @@ class BaseConfig:
 class DevelopmentConfig:
     """Development configuration."""
 
-    Base = declarative_base()
-    Session = sessionmaker()
-    engine = create_engine("sqlite:///database.db?check_same_thread=False")
-
     search_url = (
         "https://auto.ria.com/uk/search/?indexName=auto,order_auto,"
         "newauto_search&categories.main.id=1&brand.id[0]=79&model.id[0]=2104"
