@@ -1,0 +1,8 @@
+python-dotenv
+SQLAlchemy
+requests
+pyTelegramBotAPI
+beautifulsoup4
+fake-useragent
+flake8
+black
